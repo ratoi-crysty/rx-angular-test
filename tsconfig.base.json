@@ -13,8 +13,11 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "strict": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@rx-angular-test/grid-data": ["libs/grid-data/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
